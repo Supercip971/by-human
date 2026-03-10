@@ -6,7 +6,9 @@
 # THIS IS A WORK IN PROGRESS AND NOT MEANT TO BE FINAL, INFORMATION MUST BE DOUBLE CHECKED AND CORRECTED 
 
 
-This is a repository that aims to provide a **collection of badge to symbolize** that you didn't use generative AI (aka LLMs) for the creation of your project. By using this, we expect that you only use ai for less than 5% of your project. 
+This is a repository that aims to provide a **collection of badge to symbolize** that you didn't use generative AI (aka LLMs) for the creation of your project. By using this, we expect that the number of written line of code by ai is less than 1% of your total number of written line of code project. 
+
+Note that nobody will check your code, and if you are against AI use in your codebase but are not sure for the number of line of code written by AI, you can still use the badge. The goal is to be transparent and to try to reduce the abusive use of AI in codebase.
 
 This repository is accompanied by this explaination file that tries to use **scientific research** to support every claim. 
 
