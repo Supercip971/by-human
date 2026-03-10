@@ -1,13 +1,131 @@
 # Made by human, not by gen-AI 
 
+
+
+
 # THIS IS A WORK IN PROGRESS AND NOT MEANT TO BE FINAL, INFORMATION MUST BE DOUBLE CHECKED AND CORRECTED 
 
 
-This is a repository that aims to provide a collection of badge to symbolize that you didn't use generative AI (aka LLMs) for the creation of your project. 
+This is a repository that aims to provide a **collection of badge to symbolize** that you didn't use generative AI (aka LLMs) for the creation of your project. 
 
-By using this, we expect that you only use ai for less than 5% of your project. 
+By using this, we expect that you only use ai for less than 5% of your project. This is accompanied by this markdown file that tries to use **scientific research** to support every claim. 
 
-This is accompanied by this markdown file that tries to use **scientific research** to support every claim. 
+
+# Badge usage
+
+You can copy paste code to your repository or use directly the logos in your project.
+
+```md
+## Made by human
+
+<a href="https://github.com/Supercip971/by-human">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-dark.svg">
+  <img height="96" align="right" alt="Made by humand, not by gen AI badge" src="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-light.svg">
+</picture>
+</a>
+
+[Project name] is made by **Humans**, and not by a generative AI.
+
+More information can be linked to the [by-human](https://github.com/Supercip971/by-human) repository.
+```
+
+
+## Made by human
+
+<a href="https://github.com/Supercip971/by-human">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-dark.svg">
+  <img height="96" align="right" alt="Made by humand, not by gen AI badge" src="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-light.svg">
+</picture>
+</a>
+
+[Project name] is made by **Humans**, and not by a generative AI.
+
+More information can be linked to the [by-human](https://github.com/Supercip971/by-human) repository.
+
+
+## Raw badges 
+
+<table align="center">
+	<thead>
+		<td>
+			<b>Name</b>
+		</td>
+		<td>
+			<b>Picture</b>
+		</td>
+	</thead>
+    <tr>
+		<td>
+            transparent-dark.svg
+        </td>
+		<td>
+			<img width="306" alt="transparent dark mode" src="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-dark.svg">
+		</td>
+	</tr>
+    <tr>
+		<td>
+            transparent-light.svg
+        </td>
+		<td>
+			<img width="306" alt="transparent-light" src="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-light.svg">
+		</td>
+	</tr>
+    <tr>
+		<td>
+            transparent-slim-dark.svg
+        </td>
+		<td>
+			<img width="306" alt="transparent dark mode" src="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-slim-dark.svg">
+		</td>
+	</tr>
+    <tr>
+		<td>
+            transparent-slim-light.svg
+        </td>
+		<td>
+			<img width="306" alt="transparent-light" src="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-slim-light.svg">
+		</td>
+	</tr>
+      <tr>
+		<td>
+            filled-dark.svg
+        </td>
+		<td>
+			<img width="306" alt="filled dark mode" src="https://raw.githubusercontent.com/Supercip971/by-human/main/filled-dark.svg">
+		</td>
+	</tr>
+    <tr>
+		<td>
+            filled-light.svg
+        </td>
+		<td>
+			<img width="306" alt="filled-light" src="https://raw.githubusercontent.com/Supercip971/by-human/main/filled-light.svg">
+		</td>
+	</tr>
+    <tr>
+		<td>
+            filled-slim-dark.svg
+        </td>
+		<td>
+			<img width="306" alt="filled dark mode" src="https://raw.githubusercontent.com/Supercip971/by-human/main/filled-slim-dark.svg">
+		</td>
+	</tr>
+    <tr>
+		<td>
+            filled-slim-light.svg
+        </td>
+		<td>
+			<img width="306" alt="filled-light" src="https://raw.githubusercontent.com/Supercip971/by-human/main/filled-slim-light.svg">
+		</td>
+	</tr>
+</table>
+-----
+
+
 
 ## Why do we think writing by using a generative AI is bad ? 
 
@@ -62,18 +180,3 @@ Github code is
 
 
 
-## Made by human
-
-<a href="https://github.com/Supercip971/by-human">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-dark.svg">
-
-
-  <img height="96" align="right" alt="Made by humand, not by gen AI badge" src="https://raw.githubusercontent.com/Supercip971/by-human/main/transparent-light.svg">
-</picture>
-</a>
-
-[Project name] is made by **Humans**, and not by a generative AI.
-
-More information can be linked to the [by-human]() repository.
