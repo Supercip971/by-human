@@ -6,9 +6,9 @@
 # THIS IS A WORK IN PROGRESS AND NOT MEANT TO BE FINAL, INFORMATION MUST BE DOUBLE CHECKED AND CORRECTED 
 
 
-This is a repository that aims to provide a **collection of badge to symbolize** that you didn't use generative AI (aka LLMs) for the creation of your project. 
+This is a repository that aims to provide a **collection of badge to symbolize** that you didn't use generative AI (aka LLMs) for the creation of your project. By using this, we expect that you only use ai for less than 5% of your project. 
 
-By using this, we expect that you only use ai for less than 5% of your project. This is accompanied by this markdown file that tries to use **scientific research** to support every claim. 
+This repository is accompanied by this explaination file that tries to use **scientific research** to support every claim. 
 
 
 # Badge usage
