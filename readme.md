@@ -14,7 +14,7 @@ This is a repository that aims to provide a **collection of badge to symbolize**
 
 Note that nobody will check your code, and if you are against AI use in your codebase but are not sure for the number of line of code written by AI, you can still use the badge. The goal is to be transparent and to try to reduce the abusive use of AI in codebase.
 
-This repository is accompanied by this explaination file that tries to use **scientific research** to support every claim. 
+This repository is accompanied by this explaination file that tries to use **scientific research** to support every claim. But this part **is still work in progress**.
 
 
 # Badge usage
@@ -122,7 +122,7 @@ More information can be linked to the [by-human](https://github.com/Supercip971/
 
 ## Why do we think writing by using a generative AI is bad ? 
 
-Writing by using a generative AI is bad in multiple ways. It may appear better but is like a drug. Quick and rapid improvement, while developping slow maintenance and long-standing issues: 
+Writing by using a generative AI is bad in multiple ways. It may appear better but is like a drug. Quick and rapid improvement, while developping slow maintenance and long-standing issues, every statement is backed by research and scientific papers. This is why it's hard to make a statement about the cological aspect or the license-washing, because there is not a lot of research on those topics.
 
 ### 1. Copyright, plagiarism and license-washing 
 
@@ -137,8 +137,21 @@ Accepting this marks the end of copyleft and copyrights.
 
 #### 1.2 Plagiarism, and not obvious license-washing 
 
+When making an LLM learn, it is unable to take into account the license of the code. 
+As it is shown in those research paper [16](https://arxiv.org/html/2502.05023v1#:~:text=number%20of%20outputs%20can%20reproduce,memorized%20code%20snippets) [17](https://arxiv.org/html/2403.15230v1#:~:text=Our%20analysis%20revealed%20that%20every,for%20both%20researchers%20and%20the)
+
+**Large Langues Models are generating 3.35% of strong copyleft licensed code** and are:
+> not aware of reusing copyleft code and cannot be asked, through the prompt, to avoid reusing existing code in the responses.
+
+This paper [16](https://arxiv.org/html/2502.05023v1#:~:text=number%20of%20outputs%20can%20reproduce,memorized%20code%20snippets) also states that
+accepting a copyleft request may lead to more and more copyleft stolen code. (By a factor of 2 to 5).  
 
 
+In the end, LLMs are blatently stealing code. It is not like a Human learning about a piece of code and then creating something.
+A Human understand the whole picture, the algorithm, and doesn't remember the code peice.
+But when an LLM learn, it is taking the whole piece of code and may reinject it back. Meaning that the strong copy-left 
+piece of code is in its database, raising concern about the respect of license. Furthermore, a Human may copy-paste a piece of code 
+but mention the copyright in its file, instead LLMs don't mention the license nor the Author.
 
 ### 2. Creation of bugs
 
@@ -154,7 +167,7 @@ It's like a student writing code for you and not being able to learn and have co
 
 #### 2.1 You seem smarter, but you are becoming worse 
 
-- [8](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) In some research, it is shown that using **AI makes you 48% to 127% more likely to achieve a better grade during practice problems**. But in the end, **you are 17% less likely to achieve a worse grade during the real test**.
+- [8](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) In some research, it is shown that using **AI makes you 48% to 127% more likely to achieve a better grade during practice problems**. But in the end, **you are 17% more likely to achieve a worse grade during the real test**.
 What is worse, is that those students were not able to grasp that they learned less. And were unable to become more understanding. 
 
 This is a critical issue because you are leading to a false sens of understanding. Generally you write code using AI and trust your competence by checking it. But you are becoming a really bad programmer by trusting the AI and not learning by yourself. 
@@ -175,20 +188,18 @@ The water usage is hard to put into perspective, the only trustable source is a 
 
 Now, this article tells us that [13](https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2542435123003653%3Fshowall%3Dtrue#fig1) one chat-GPT 4.5 request cost 20.500 Wh. But you can still not make this statement as clear as possible, as it uses an approximation. 
 
-It is more grounded as this article take into account large context, because a lot of study uses "short" request, but using LLM as an agent require it to read your file, your codebase, and can no longer be linked to a 'short request'.
+It is more grounded as this article take into account large context, because a lot of study uses "short" request, but using LLM as an agent require it to read your file, your codebase, and can no longer be linked to a 'short request'.z
 
-While it may seems a lot, those numbers are a ghost. We can't make any further claim and are not able to put into perspective the direct ecological aspect of Chat-GPT usage. We would need a full research that are using Open-AI insight but as they are not releasing a lot of information we are stuck at guessing how much we are collapsing the world by using AI.
-
-
+While it may seem a lot, those numbers are a ghost. We can't make any further claim and are not able to put into perspective the direct ecological aspect of Chat-GPT usage. We would need a full research that are using Open-AI insight but as they are not releasing a lot of information we are stuck at guessing how much we are collapsing the world by using AI.
 
 
 ### 4. LLMs are getting better ! 
 
 ### 4.1 Inbreeding is as bad as it is for humans 
 
-Microsoft is training its LLMs on code from github, and they said in a conference that 40% of code written by an LLM is left unmodified [11](https://www.microsoft.com/en-us/Investor/events/FY-2023/Morgan-Stanley-TMT-Conference)
+Microsoft is training its LLMs on code from github, and they said in a conference that **40% of code written by an LLM is left unmodified** [11](https://www.microsoft.com/en-us/Investor/events/FY-2023/Morgan-Stanley-TMT-Conference)
 While this quote is not really backed by any evidence, it is expected to be true that more and more code is written by an LLM, and it is more and more left untouched.
-The training data of LLMs can't differ between a human code and a LLM written code. Meaning that we will need more and more energy, training and data to accomodate this shift in quality. 
+The training data of **LLMs can't differ between a human code and a LLM written code**. Meaning that we will need more and more energy, training and data to accomodate this shift in quality. 
 
 An error just repeated multiple time by an LLM can become ground truth, as we know that only 20 documents can poison LLMs of any size [12](https://www.anthropic.com/research/small-samples-poison). (While this is not linked to this statement, this article shows how a couple of documents can shift an LLM point of view).
 
@@ -200,7 +211,7 @@ It's just like inbreeding.
 
 Having to pay twice for your ram is a heavy cost of having datacenter eating the whole production. 
 
-AI is mainly able to evolve by multiplying the compute power, RAM, context size... 
+AI is mainly able to evolve by multiplying compute power, RAM, context size... 
 But our world is unable to keep it up [13](https://arxiv.org/abs/2409.14160). 
 
 This paper crystalize the issue with this statement:
@@ -247,7 +258,7 @@ Please learn, discover, and make something creative.
 
 We don't share the exact same philosophy as [brainmade.org](https://brainmade.org/), they say: 
 
-```
+```md
 It’s not AI = bad, it’s human = good. 
 There’s something transcendent and magical in knowing a human made the artwork I’m consuming, knowing they tried hard is part of the experience. 
 It doesn’t have to be 100% human made (what would that even MEAN these days?), perhaps 90% human made.
@@ -257,7 +268,6 @@ Three examples of what this mark could apply to:
 - Using, say, ChatGPT as a rhyming dictionary feels fine, but writing whole verses of your poem doesn’t.
 - Using DALL-E to start brainstorming with 100 generated views of birds sitting on telephone lines seems fine, but getting it to paint large sections of your artwork doesn’t.
 - Asking a text generator to give you 10 happy-sounding synonyms for despair sparks joy in me, but asking it to write your anti-transcendentalist masterpiece does not.
-
 ```
 
 And that's okay, for some people they see AI is a tool and can be used sometime. But for us, it is not a tool but rather a poison that can leed to knowledge dept. It should be avoided at all cost.
