@@ -11,7 +11,7 @@
 </a>
 <h1>Made by Human, not by Gen-AI</h1>
 
-[Website](https://www.by-human.org) | [Github](https://github.com/Supercip971/by-human) | [CC0 Licensed](https://github.com/Supercip971/by-human/blob/main/LICENSE)
+[Website](https://www.by-human.net) | [Github](https://github.com/Supercip971/by-human) | [CC0 Licensed](https://github.com/Supercip971/by-human/blob/main/LICENSE)
 </div>
 
 This is a repository that aims to provide a **collection of badges to symbolize** that you didn't use generative AI (aka LLMs) for the creation of your project. By using this, we expect that the number of written lines of code by AI is less than 1% of your total number of written lines of code in your project. 
