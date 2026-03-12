@@ -1,0 +1,21 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+
+article {
+    padding-top: 4ch;
+    padding-bottom: 4ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+
+    margin: auto; 
+    max-width: 65ch; 
+
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
