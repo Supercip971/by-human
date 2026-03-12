@@ -14,9 +14,9 @@
 [Website](https://www.by-human.net) | [Github](https://github.com/Supercip971/by-human) | [CC0 Licensed](https://github.com/Supercip971/by-human/blob/main/LICENSE)
 </div>
 
-This is a repository that aims to provide a **collection of badges to symbolize** that you didn't use generative AI (aka LLMs) for the creation of your project. By using this, we expect that the number of written lines of code by AI is less than 1% of your total number of written lines of code in your project. 
+This is a repository that aims to provide a **collection of badges to symbolize** that you didn't use generative AI (notably LLMs) for the creation of your project. By using this, you are expected to ensure that AI-generated code makes up less than 1% of the total written lines of code in your project.
 
-Note that nobody will check your code, and if you are against AI use in your codebase but are not sure about the number of lines of code written by AI, you can still use the badge. The goal is to be transparent and to try to reduce the abusive use of AI in codebases.
+Note that **nobody will check your code**, and if you are against AI use in your codebase but are unsure about the number of lines of code written by AI, you can still use the badge. The goal is to be transparent and to try to reduce the abusive use of AI in codebases.
 
 This repository is accompanied by an explanation that tries to be backed by **scientific research** to support every claim. But this part **is still a work in progress**.
 
@@ -123,41 +123,39 @@ More information can be linked to the [by-human](https://github.com/Supercip971/
 -----
 
 
-## Why do we think writing by using a generative AI is bad ? 
+## Why do we think writing using generative AI is problematic? 
 
-Writing by using a generative AI is inferior in multiple ways. It may appear better but is like a drug. Quick and rapid growth, while developing slow maintenance and long-standing concerns. 
+Writing using generative AI is inferior in multiple ways. It may *appear* better and more efficient, but comes with important drawbacks that we enumerate here.
 
 ### 1. Copyright, plagiarism and license-washing 
 
 #### 1.1 Plain and obvious license-washing 
 
-An AI can license-wash unknowingly, but it has already been shown that it can be used to do it on purpose <a href="#footnote-1">[1]</a>.
+AI can license-wash unknowingly, and it has already been shown that it can be used to do it on purpose <a href="#footnote-1">[1]</a>.
 
-
-Someone used claude code to 'rewrite' the whole project and then edited it to be MIT instead of LGPL. 
+TL;DR: Claude Code was used to 'rewrite' an entire project, which was then relicensed under the MIT instead of the LGPL.
 
 This is a clear license violation. 
 
-If someone say that it is not license washing, then does translating a book make it drain the copy-rights ?
-Accepting this fact marks the end of copyleft and copyrights.
+If one were to claim that it was not, then would tanslating a book remove its copyright?
+Accepting such a claim would effectively mark the end of copyleft and copyright protections.
 
 #### 1.2 Plagiarism, and not obvious license-washing 
 
 When making an LLM learn, it is unable to grasp the license of the code. 
-As it is shown in those research paper <a href="#footnote-2">[2]</a> <a href="#footnote-3">[3]</a> **Large Language Models are generating 3.35% of strong copyleft licensed code** and are:
+As shown in two research papers, <a href="#footnote-2">[2]</a> <a href="#footnote-3">[3]</a> **Large Language Models are generating 3.35% of strong copyleft licensed code** and are:
 > not aware of reusing copyleft code and cannot be asked, through the prompt, to avoid reusing existing code in the responses.
 
 This paper <a href="#footnote-2">[2]</a> also states that
-accepting a copyleft request may lead to more and more copyleft stolen code. (By a factor of 2 to 5).  
+accepting a copyleft request may lead to an increase in copyleft stolen code. (By a factor of 2 to 5).  
 
 
-Ultimately, LLMs are blatantly burglarizing code. It is a far cry from a Human learning about a chunk of code and then creating something.
-A Human understands the whole picture, the algorithm, and doesn't remember the raw code.
+Ultimately, LLMs are blatantly plagiarizing code. It is a far cry from a human learning about a chunk of code and then creating something based on obtained knowledge;
+a human fundamentally understands the whole picture and the *idea* behind the code, and does not rely on rote memorization.
 
-But when an LLM learn, it is taking the whole section of code and may reinject it back. Meaning that the strong copy-left 
-part of the code is in its database. Raising concern about the respect of license. 
+But when an LLM learns, it takes in a large quantity of code from a variety of sources and may spit it back out verbatim to oblivious users. Meaning that the strongly licensed part of the code is in its database, raising concerns about the respect of license. 
 
-Furthermore, a Human may copy paste a piece of code but mention the copyright in the file and respect it. In lieu LLMs don't mention the license nor the Author.
+This is different from a human importing a licensed piece of code, as a well-informed developer will include the license notice along with the chunk of code. In lieu LLMs don't mention the license nor the author.
 
 ### 2. Creation of bugs
 
@@ -183,7 +181,7 @@ This is a critical issue because you are leading to a false sense of knowledge. 
 
 As you are expected to study your codebase, by using an LLMs, you are becoming worse at understanding your own codebase, thus worse at fixing and improving it. 
 
-Ultimately, this makes you more and more dependent on AI, and will loop forever until your codebase is unable to be maintained. 
+Ultimately, this makes you more and more dependent on AI, and this will turn into a vicious cycle until your codebase is unable to be maintained. 
 
 
 ### 3. Is the ecological aspect devastating?
@@ -203,19 +201,19 @@ It is more grounded as this article takes into account large context, because a 
 While it may seem a lot, those numbers are a ghost. We can't make any further claim and are not able to put into perspective the direct ecological aspect of Chat-GPT usage. We would need a full research that is using OpenAI insights. On the other hand, as they are not releasing a lot of information we are stuck at guessing how much we are collapsing the world by using AI.
 
 
-### 4. LLMs are getting better ! 
+### 4. LLMs are getting better! 
 
 ### 4.1 Inbreeding is as bad as it is for humans 
 
 Microsoft is training its LLMs on code from github, and they expressed in a conference that **40% of code written by an LLM is left unmodified** <a href="#footnote-15">[15]</a>.
 
-Albeit this quote is not really backed by any evidence, it is admitted to be true that more and more code is written by an LLM, and it is progressively left untouched.
+Although this quote is not really backed by any evidence, it is admitted to be true that more and more published code is written by an LLM, and it is progressively left untouched.
 
 The training data of **LLMs can't differ between a human code and a LLM written code**. Hinting that we will need more and more energy, training and data to accommodate this shift in quality. 
 
-An error just repeated multiple times by an LLM can become ground truth. We recognize that only 20 documents can poison LLMs of any size <a href="#footnote-16">[16]</a>. (While this is not directly linked to this statement, this article shows how a couple of documents can shift an LLM's point of view).
+An error just repeated multiple times by an LLM can become ground truth. It has been shown that only 20 documents can poison LLMs of any size <a href="#footnote-16">[16]</a>. (While this is not directly linked to this statement, this article shows how a couple of documents can shift an LLM's point of view).
 
-In the end, the easy shift in models knowledge coupled to the booming use of LLMs in the wild means that what is expected to be ground truth for an LLM is becoming what it wrote by itself. 
+In summary, the easy shift in model knowledge coupled to the booming use of LLMs in the wild means that LLMs are now training on their own data, leading to a considerable decrease in training quality.
 
 It's just like inbreeding. 
 
@@ -224,7 +222,7 @@ It's just like inbreeding.
 Having to pay twice for your ram is a heavy cost of having datacenter eating the whole production. 
 
 AI is mainly able to evolve by multiplying compute power, RAM, context size... 
-Yet our world is unable to keep it up <a href="#footnote-17">[17]</a>. 
+Yet our world is unable to keep up with it <a href="#footnote-17">[17]</a>. 
 
 This paper crystallizes the concern with this statement:
 
@@ -242,7 +240,7 @@ This paper crystallizes the concern with this statement:
 
 Subsequently, when we say an AI is getting better, it is not because of a ground breaking algorithm but rather:
 
-- A more powerful hardware, meaning more money & more energy 
+- More powerful hardware, which takes more money and consumes more energy 
 - More data (which is becoming more and more polluted by LLMs)
 - More training, meaning more energy and more human labor.
 
@@ -254,10 +252,9 @@ When we will no longer have enough ram, no longer enough compute power, the whol
 
 
 ## Conclusion 
+When writing code using AI, the process can seem almost like magic, because the problem may have already been solved by someone else and reproduced by the model.
 
-When writing by using an AI, the code seems fabulous because it's already a problem solved by someone else. 
-
-It makes you look smarter while making you worse. It has a lot of consumption issues, has more and more investment while having a training set being polluted by its own mistakes. And by investors contributing billions wanting more and more while having less and less. 
+It makes you look smarter but simultaneously makes you worse at solving problems on your own. AI is destroying the planet and our economy while getting worse, polluting its own data set. The situation is only worsening as investors are contributing billions, expecting more and more, while getting less and less in return. 
 
 It is only a temporary shiny rock that will become just a crusted rock. And hereafter, you would have hoped to not depend your whole workflow on an inbred junior that is unable to count the number of letters in a word. You will finish as the external tourist of your own codebase. 
 
