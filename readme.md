@@ -131,7 +131,8 @@ Writing by using a generative AI is inferior in multiple ways. It may appear bet
 
 #### 1.1 Plain and obvious license-washing 
 
-An AI can license-wash unknowingly, but it has already been shown that it can be used to do it on purpose. As an example: [https://tuananh.net/2026/03/05/relicensing-with-ai-assisted-rewrite/](https://tuananh.net/2026/03/05/relicensing-with-ai-assisted-rewrite/).
+An AI can license-wash unknowingly, but it has already been shown that it can be used to do it on purpose <a href="#footnote-1">[1]</a>.
+
 
 Someone used claude code to 'rewrite' the whole project and then edited it to be MIT instead of LGPL. 
 
@@ -143,12 +144,10 @@ Accepting this fact marks the end of copyleft and copyrights.
 #### 1.2 Plagiarism, and not obvious license-washing 
 
 When making an LLM learn, it is unable to grasp the license of the code. 
-As it is shown in those research paper [16](https://arxiv.org/html/2502.05023v1#:~:text=number%20of%20outputs%20can%20reproduce,memorized%20code%20snippets) [17](https://arxiv.org/html/2403.15230v1#:~:text=Our%20analysis%20revealed%20that%20every,for%20both%20researchers%20and%20the)
-
-**Large Language Models are generating 3.35% of strong copyleft licensed code** and are:
+As it is shown in those research paper <a href="#footnote-2">[2]</a> <a href="#footnote-3">[3]</a> **Large Language Models are generating 3.35% of strong copyleft licensed code** and are:
 > not aware of reusing copyleft code and cannot be asked, through the prompt, to avoid reusing existing code in the responses.
 
-This paper [16](https://arxiv.org/html/2502.05023v1#:~:text=number%20of%20outputs%20can%20reproduce,memorized%20code%20snippets) also states that
+This paper <a href="#footnote-2">[2]</a> also states that
 accepting a copyleft request may lead to more and more copyleft stolen code. (By a factor of 2 to 5).  
 
 
@@ -163,11 +162,11 @@ Furthermore, a Human may copy paste a piece of code but mention the copyright in
 ### 2. Creation of bugs
 
 We will first let the numbers speak for themselves: 
-- [1](https://dl.acm.org/doi/epdf/10.1145/3639474.3640052) Is stating that Chat-GPT 4 is instantly failing **~8%** of the time, and code quality is good only **~60% of the time**.
-- [2](https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report) code rabbit, an AI company, announces that LLMs introduce **70% major defect and 40% critical issues** in pull request. Twice more than humans. 
-- [3](https://arxiv.org/pdf/2509.13650) this paper notify that **Github-copilot has only superficial capabilities when trying to find bugs**. It can hardly help discover bugs. Across multiple projects filled with vulnerability issues (more than 39 different types), GitHub Copilot only assisted in finding a couple, but in general it only fixed spelling mistakes. Finally, GitHub Copilot lacked any valuable comments 
-- [4](https://uplevelteam.com/blog/ai-for-developer-productivity) Uplevel reports that generative AI is introducing 40% more bugs. 
-- [5](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) puts into perspective the fact that we have a year over year increase of **40% of code pushed, then reverted or removed within 2 weeks**. Meaning that since the introduction of AI, quickly 'reverted' code has increased from 3.97% to 7.09%. 
+- <a href="#footnote-4">[4]</a> Is stating that Chat-GPT 4 is instantly failing **~8%** of the time, and code quality is good only **~60% of the time**.
+- <a href="#footnote-5">[5]</a> code rabbit, an AI company, announces that LLMs introduce **70% major defect and 40% critical issues** in pull request. Twice more than humans. 
+- <a href="#footnote-6">[6]</a> this paper notify that **Github-copilot has only superficial capabilities when trying to find bugs**. It can hardly help discover bugs. Across multiple projects filled with vulnerability issues (more than 39 different types), GitHub Copilot only assisted in finding a couple, but in general it only fixed spelling mistakes. Finally, GitHub Copilot lacked any valuable comments 
+- <a href="#footnote-7">[7]</a> Uplevel reports that generative AI is introducing 40% more bugs. 
+- <a href="#footnote-8">[8]</a> puts into perspective the fact that we have a year over year increase of **40% of code pushed, then reverted or removed within 2 weeks**. Meaning that since the introduction of AI, quickly 'reverted' code has increased from 3.97% to 7.09%. 
 
 
 Inexorably, we understand that AI generates incremental technical debt, that makes projects unmaintainable in the long term. And it's barely able to fix itself. 
@@ -176,7 +175,7 @@ It's like a student writing code for you and not being able to learn and have co
 
 #### 2.1 You seem smarter, but you are becoming worse 
 
-- [8](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) In some research, it is shown that using **AI makes you 48% to 127% more likely to achieve a better grade during practice problems**. But in the end, **you are 17% more likely to achieve a worse grade during the real test**.
+- In some research<a href="#footnote-9">[9]</a>, it is shown that using **AI makes you 48% to 127% more likely to achieve a better grade during practice problems**. But in the end, **you are 17% more likely to achieve a worse grade during the real test**.
 
 What is worse, is that those students were not able to realize that they learned less. And were unable to become more understanding. 
 
@@ -191,13 +190,13 @@ Ultimately, this makes you more and more dependent on AI, and will loop forever 
 
 It is rough to translate into numbers the ecological aspect of AI.  
 
-[6](https://www.tomshardware.com/pc-components/ram/data-centers-will-consume-70-percent-of-memory-chips-made-in-2026-supply-shortfall-will-cause-the-chip-shortage-to-spread-to-other-segments) First, 70% of ram production is dedicated to datacenters. A production increased by the reallocation of supplier capacity towards AI datacenters. Meaning that we are using a lot of economic resources to make AI run. 
+First, 70%<a href="#footnote-10">[10]</a> of ram production is dedicated to datacenters. A production increased by the reallocation of supplier capacity towards AI datacenters. Meaning that we are using a lot of economic resources to make AI run. 
 
-[7](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117) Since the introduction of chat-GPT, the power consumption has elevated by 98% in one year. (2.69 MW in 2022 -> 5.43 MW in 2023). 
+<a href="#footnote-11">[11]</a> Since the introduction of chat-GPT, the power consumption has elevated by 98% in one year. (2.69 MW in 2022 -> 5.43 MW in 2023). 
 
-The water usage is hard to put into perspective. The only trustable source is a citation from Sam Altman saying that Chat-GPT uses 0.000085 gallons of water per query. [9](https://www.techtimes.com/articles/310771/20250612/how-much-water-energy-does-chatgpt-use-sam-altman-breaks-down-numbers.htm) but Chat-GPT processes 2.5 billion of request per day [10](https://www.businessinsider.com/chatgpt-openai-user-stats-messages-per-day-tech-ai-2025-10) meaning that on average Chat-GPT uses 804,400 L of water per day.  
+The water usage is hard to put into perspective. The only trustable source is a citation from Sam Altman saying that Chat-GPT uses 0.000085 gallons of water per query. <a href="#footnote-12">[12]</a> but Chat-GPT processes 2.5 billion of request per day <a href="#footnote-13">[13]</a> meaning that on average Chat-GPT uses 804,400 L of water per day.  
 
-Thenceforward, this article tells us that [13](https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2542435123003653%3Fshowall%3Dtrue#fig1) one Chat-GPT 4.5 request costs 20.500 Wh. But you can still not make this statement as clear as possible, as it uses an approximation. 
+Thenceforward, this article tells us that <a href="#footnote-14">[14]</a> one Chat-GPT 4.5 request costs 20.500 Wh. But you can still not make this statement as clear as possible, as it uses an approximation. 
 
 It is more grounded as this article takes into account large context, because a lot of studies use 'short' requests. Although using an LLM as an agent requires it to read your file, your codebase, and can no longer be linked to a 'short request'.
 
@@ -208,13 +207,13 @@ While it may seem a lot, those numbers are a ghost. We can't make any further cl
 
 ### 4.1 Inbreeding is as bad as it is for humans 
 
-Microsoft is training its LLMs on code from github, and they expressed in a conference that **40% of code written by an LLM is left unmodified** [11](https://www.microsoft.com/en-us/Investor/events/FY-2023/Morgan-Stanley-TMT-Conference)
+Microsoft is training its LLMs on code from github, and they expressed in a conference that **40% of code written by an LLM is left unmodified** <a href="#footnote-15">[15]</a>.
 
 Albeit this quote is not really backed by any evidence, it is admitted to be true that more and more code is written by an LLM, and it is progressively left untouched.
 
 The training data of **LLMs can't differ between a human code and a LLM written code**. Hinting that we will need more and more energy, training and data to accommodate this shift in quality. 
 
-An error just repeated multiple times by an LLM can become ground truth. We recognize that only 20 documents can poison LLMs of any size [12](https://www.anthropic.com/research/small-samples-poison). (While this is not directly linked to this statement, this article shows how a couple of documents can shift an LLM's point of view).
+An error just repeated multiple times by an LLM can become ground truth. We recognize that only 20 documents can poison LLMs of any size <a href="#footnote-16">[16]</a>. (While this is not directly linked to this statement, this article shows how a couple of documents can shift an LLM's point of view).
 
 In the end, the easy shift in models knowledge coupled to the booming use of LLMs in the wild means that what is expected to be ground truth for an LLM is becoming what it wrote by itself. 
 
@@ -225,7 +224,7 @@ It's just like inbreeding.
 Having to pay twice for your ram is a heavy cost of having datacenter eating the whole production. 
 
 AI is mainly able to evolve by multiplying compute power, RAM, context size... 
-Yet our world is unable to keep it up [13](https://arxiv.org/abs/2409.14160). 
+Yet our world is unable to keep it up <a href="#footnote-17">[17]</a>. 
 
 This paper crystallizes the concern with this statement:
 
@@ -237,7 +236,7 @@ This paper crystallizes the concern with this statement:
 > resources are spent on AI. This increase in resources is
 > visible in computational costs but is also true of other costs.
 > For instance, building larger AI models require more human
-> labor.
+> labor. <a href="#footnote-17">[17]</a>
 
 ![Ai-ressource](doc/ai-ressource-usage.png)
 
@@ -247,7 +246,7 @@ Subsequently, when we say an AI is getting better, it is not because of a ground
 - More data (which is becoming more and more polluted by LLMs)
 - More training, meaning more energy and more human labor.
 
-We are reaching a point where we are sidelined to keep up with the increasing demand of resources, and the only way to keep up is to eat through the user market. The paper may have predicted the increase of recent ram price [14](https://www.tomshardware.com/pc-components/ram/ram-price-index-2026-lowest-price-on-ddr5-and-ddr4-memory-of-all-capacities). 
+We are reaching a point where we are sidelined to keep up with the increasing demand of resources, and the only way to keep up is to eat through the user market. The paper may have predicted the increase of recent ram price <a href="#footnote-18">[18]</a>. 
 
 When we will no longer have enough ram, no longer enough compute power, the whole AI industry may collapse, bringing us back to the point where we are now... And those who depended on AI will not be able to bring back their lost knowledge. 
 
@@ -286,3 +285,115 @@ Three examples of what this mark could apply to:
 ```
 
 And that's okay, for some people they see AI is a tool and can be used sometime. But for us, it is not a tool but rather a poison that can lead to knowledge debt. It should be avoided at all costs.
+
+# Sources
+
+
+<p id="footnote-1">
+
+- 1: [Relicensing with ai assisted rewrite - Tuan-Anh Tran](https://tuananh.net/2026/03/05/relicensing-with-ai-assisted-rewrite/) 
+
+</p>
+
+<p id="footnote-2">
+
+- 2: [On the Possibility of Breaking Copyleft Licenses When Reusing Code Generated by ChatGPT](https://arxiv.org/html/2502.05023v1#:~:text=number%20of%20outputs%20can%20reproduce,memorized%20code%20snippets)
+
+</p>
+
+<p id="footnote-3">
+
+- 3: [An Exploratory Investigation into Code License Infringements in Large Language Model Training Datasets](https://arxiv.org/html/2403.15230v1#:~:text=Our%20analysis%20revealed%20that%20every,for%20both%20researchers%20and%20the)
+
+</p>
+
+<p id="footnote-4">
+
+- 4: [LLMs Still Can’t Avoid Instanceof: An Investigation Into GPT-3.5,GPT-4 and Bard’s Capacity to Handle Object-Oriented Programming Assignments](https://dl.acm.org/doi/epdf/10.1145/3639474.3640052)
+
+</p>
+
+<p id="footnote-5">
+
+- 5: [State of AI vs Human Code Generation Report](https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report)
+
+</p>
+
+<p id="footnote-6">
+
+- 6: [GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?](https://arxiv.org/pdf/2509.13650)
+
+</p>
+
+<p id="footnote-7">
+
+- 7: [AI for develope productivity](https://uplevelteam.com/blog/ai-for-developer-productivity)
+
+</p>
+
+<p id="footnote-8">
+
+- 8: [Coding on Copilot: Data Shows AI's downard pressure on code quality](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality)
+
+</p>
+
+<p id="footnote-9">
+
+- 9: [Generative AI Can Harm Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486)
+
+</p>
+
+<p id="footnote-10">
+
+- 10: [Tom's Hardware: Data Centers Will Consume 70% of Memory Chips Made in 2026](https://www.tomshardware.com/pc-components/ram/data-centers-will-consume-70-percent-of-memory-chips-made-in-2026-supply-shortfall-will-cause-the-chip-shortage-to-spread-to-other-segments)
+
+</p>
+
+<p id="footnote-11">
+
+- 11: [MIT: explained generative AI environmental impact](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117)
+
+</p>
+
+<p id="footnote-12">
+
+- 12: [How Much Water & Energy Does ChatGPT Use ? Sam Altman Breaks Down the Numbers](https://www.techtimes.com/articles/310771/20250612/how-much-water-energy-does-chatgpt-use-sam-altman-breaks-down-numbers.htm)
+
+</p>
+
+<p id="footnote-13">
+
+- 13: [Business Insider: ChatGPT is processing 2.5 billion messages a day](https://www.businessinsider.com/chatgpt-openai-user-stats-messages-per-day-tech-ai-2025-10)
+
+</p>
+
+<p id="footnote-14">
+
+- 14: [The growing energy footprint of artificial intelligence](https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S2542435123003653%253Fshowall=true#fig1)
+
+</p>
+
+<p id="footnote-15">
+
+- 15: [Morgan Stanley TMT Conference](https://www.microsoft.com/en-us/Investor/events/FY-2023/Morgan-Stanley-TMT-Conference)
+
+</p>
+
+<p id="footnote-16">
+
+- 16: [A small number of samples can poison LLMs of any size](https://www.anthropic.com/research/small-samples-poison)
+
+</p>
+
+<p id="footnote-17">
+
+- 17: [Hype, Sustainability, and the Price of the Bigger-is-Better Paradigm in AI](https://arxiv.org/abs/2409.14160)
+
+</p>
+
+<p id="footnote-18">
+
+
+- 18: [Tom's Hardware: RAM price tracking 2026: Daily lowest price on DDR5 and DDR4 memory of all capacities](https://www.tomshardware.com/pc-components/ram/ram-price-index-2026-lowest-price-on-ddr5-and-ddr4-memory-of-all-capacities)
+
+</p>
