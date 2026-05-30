@@ -14,11 +14,24 @@
 [Website](https://www.by-human.net) | [Github](https://github.com/Supercip971/by-human) | [CC0 Licensed](https://github.com/Supercip971/by-human/blob/main/LICENSE)
 </div>
 
-This is a repository that aims to provide a **collection of badges to symbolize** that you didn't use generative AI (notably LLMs) for the creation of your project. By using this, you are expected to ensure that AI-generated code makes up less than 1% of the total written lines of code in your project.
+This is a repository that aims to provide a **collection of badges to symbolize** that you didn't use generative AI (notably LLMs) for the creation of your project. By using this, you are expected to ensure that AI-generated code makes up less than 1% of the total written lines of code in your project. You can use the badge only if you ask for *assistance like a smart grepper.* 
 
 Note that **nobody will check your code**, and if you are against AI use in your codebase but are unsure about the number of lines of code written by AI, you can still use the badge. The goal is to be transparent and to try to reduce the abusive use of AI in codebases.
 
 This repository is accompanied by an explanation that tries to be backed by **scientific research** to support every claim. But this part **is still a work in progress**.
+
+## What is the 'by-human' expected use of AI ?
+
+AI should not be used in the project to generate code. It can instead be used as:
+- A **smart grep** or a **smart google**. For example, fetching in a new codebase where something is implemented or maintained. 
+- **Reviewer helper**. When having a lot of PRs having an AI to catch bug. 
+- **Learn a codebase** (example: how do you do X ?) to learn by example or to explain something if there is no documentation. You should write the documentation after if you are maintaining the project.
+- **Using AI to ask for help with a bug**, but not to write the fix for yourself.
+- **Asking how a feature could be implemented**, but not to write the final implementation for yourself.
+
+Every time you use an AI to help you think, it must be reviewed by a Human. You must also take responsibility of the elements the AI generated or told you. 
+
+**Note that AI should be used sparingly and only after a Human was unable to provide a quick solution/alternative**. You should always take into consideration the output of the AI and the consumption of energy & ecological footprint before using it.
 
 # Badge usage
 
