@@ -294,7 +294,8 @@ Three examples of what this mark could apply to:
 - Asking a text generator to give you 10 happy-sounding synonyms for despair sparks joy in me, but asking it to write your anti-transcendentalist masterpiece does not.
 ```
 
-And that's okay, for some people they see AI is a tool and can be used sometime. But for us, it is not a tool but rather a poison that can lead to knowledge debt. It should be avoided at all costs.
+And that's okay, for some people they see AI is a tool and can be used sometime. 
+And for us, it is not a tool for writing but rather a poison that can lead to knowledge debt. It should be used sparingly at all costs. And avoid using it to write code.
 
 # Sources
 
