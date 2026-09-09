@@ -129,7 +129,17 @@ More information can be linked to the [by-human](https://github.com/Supercip971/
 			<img width="306" alt="filled-light" src="https://raw.githubusercontent.com/Supercip971/by-human/main/filled-slim-light.svg">
 		</td>
 	</tr>
-   
+    <tr>
+		<td>
+            88x31-dark.png + 88x31-light.png
+        </td>
+		<td>
+			<img  alt="button dark" src="88x31-dark.png">
+		</td>
+		<td>
+			<img alt="button light" src="88x31-light.png">
+		</td>
+	</tr>
 </table>
 
 
